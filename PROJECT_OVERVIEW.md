@@ -402,7 +402,7 @@ Download `qwen-finetuned.zip` (~100MB)
 ### Step 5: Use Locally
 
 ```bash
-# Extract to models folder
+# Extract to models fversion 1.0.1er
 unzip qwen-finetuned.zip -d hybrid_llm/models/
 
 # Test it
@@ -535,3 +535,4 @@ This project setup is MIT licensed. Individual components (Qwen, PyTorch, etc.) 
 **Created:** January 2026
 **Last Updated:** January 14, 2026
 **Status:** Ready for testing
+

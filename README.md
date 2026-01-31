@@ -1,44 +1,43 @@
-# OLD STRUCTURE - Archive
+# Lambda Driver - Archive
 
-## ⚠️ This is the OLD project structure
-
+## ⚠️ This is version 1.0.1 
 **Status:** Archived for reference only  
 **Date Archived:** January 19, 2026  
-**Replaced By:** NEW_STRUCTURE/
+**Replaced By:** v2.0.0  [Not public]/
 
 ## 📁 What's Here
 
 This folder contains the original project structure before the reorganization.
 
 ```
-OLD_STRUCTURE/
-├── qwen_setup/              # Old simple setup
+Lambda Driver/
+├── qwen_setup/              # version 1.0.1 simple setup
 │   ├── qwen_coder.py       # Basic Qwen interface
-│   ├── install.bat         # Old installation
-│   ├── run.bat             # Old runner
+│   ├── install.bat         # version 1.0.1 installation
+│   ├── run.bat             # version 1.0.1 runner
 │   └── requirements.txt    # Dependencies
 │
-├── hybrid_llm/             # Old hybrid system
-│   ├── main.py             # Old main entry
-│   ├── rag_coder.py        # Old RAG implementation
+├── hybrid_llm/             # version 1.0.1 hybrid system
+│   ├── main.py             # version 1.0.1 main entry
+│   ├── rag_coder.py        # version 1.0.1 RAG implementation
 │   ├── web_search.py       # Web search
 │   ├── network_monitor.py  # Offline verification
-│   ├── config.json         # Old config
+│   ├── config.json         # version 1.0.1 config
 │   └── ...                 # Other files
 │
-├── PROJECT_OVERVIEW.md     # Old documentation
-├── TROUBLESHOOTING.md      # Old troubleshooting
-├── CHANGELOG.md            # Old changelog
-├── SETUP_COMPLETE.md       # Old setup guide
-├── MODEL_MANAGEMENT.md     # Old model management
+├── PROJECT_OVERVIEW.md     # version 1.0.1 documentation
+├── TROUBLESHOOTING.md      # version 1.0.1 troubleshooting
+├── CHANGELOG.md            # version 1.0.1 changelog
+├── SETUP_COMPLETE.md       # version 1.0.1 setup guide
+├── MODEL_MANAGEMENT.md     # version 1.0.1 model management
 ├── check_models.py         # Model checker
-├── download_models.bat     # Old downloader
-└── download_models.py      # Old downloader (Python)
+├── download_models.bat     # version 1.0.1 downloader
+└── download_models.py      # version 1.0.1 downloader (Python)
 ```
 
 ## 🚫 Why This Was Replaced
 
-### Problems with Old Structure
+### Problems with version 1.0.1 Structure
 
 1. **Two Models (1.5B + 7B)**
    - Confusing which to use
@@ -77,7 +76,7 @@ See `../NEW_STRUCTURE/` for:
 ## 📖 Migration Guide
 
 See `../NEW_STRUCTURE/MIGRATION_GUIDE.md` for:
-- How to migrate from old to new
+- How to migrate from version 1.0.1 to new
 - Step-by-step instructions
 - Configuration mapping
 - Troubleshooting
@@ -85,8 +84,8 @@ See `../NEW_STRUCTURE/MIGRATION_GUIDE.md` for:
 ## 🗑️ Should You Delete This?
 
 **Keep it if:**
-- You want to reference old code
-- You're still using the old structure
+- You want to reference version 1.0.1 code
+- You're still using the version 1.0.1 structure
 - You want to compare implementations
 
 **Delete it if:**
@@ -96,7 +95,7 @@ See `../NEW_STRUCTURE/MIGRATION_GUIDE.md` for:
 
 ## 📊 Comparison
 
-| Feature | OLD_STRUCTURE | NEW_STRUCTURE |
+| Feature | Lambda Driver | NEW_STRUCTURE |
 |---------|---------------|---------------|
 | Models | 1.5B + 7B | Only 7B |
 | Storage | System cache | User choice |
@@ -105,12 +104,12 @@ See `../NEW_STRUCTURE/MIGRATION_GUIDE.md` for:
 | Download | During run | During setup |
 | Structure | Mixed | Clean modules |
 
-## 🔄 How to Use Old Structure (Not Recommended)
+## 🔄 How to Use version 1.0.1 Structure (Not Recommended)
 
-If you still want to use the old structure:
+If you still want to use the version 1.0.1 structure:
 
 ```bash
-cd OLD_STRUCTURE/qwen_setup
+cd Lambda Driver/qwen_setup
 install.bat
 run.bat
 ```
@@ -118,29 +117,25 @@ run.bat
 Or:
 
 ```bash
-cd OLD_STRUCTURE/hybrid_llm
+cd Lambda Driver/hybrid_llm
 install.bat
 run.bat
 ```
 
-**Note:** This is not maintained and may have issues.
+**Note:** This is not maintained and may have issues. 
 
 ## 📝 Version History
 
 - **v1.0.0** - Initial release (Jan 18, 2026)
 - **v1.0.1** - Fixed bitsandbytes dependency (Jan 18, 2026)
-- **v2.0.0** - Replaced by NEW_STRUCTURE (Jan 19, 2026)
+- **v2.0.0** - Replaced by version 2.0.0 (Jan 19, 2026)  "not public , currently in devlopment"
 
 ## 🆘 Support
 
-For the old structure:
-- Check documentation in this folder
+For the version 1.0.1 structure:
+- Check documentation in this fversion 1.0.1er
 - See TROUBLESHOOTING.md
 - See PROJECT_OVERVIEW.md
-
-For the new structure:
-- See ../NEW_STRUCTURE/README.md
-- See ../NEW_STRUCTURE/MIGRATION_GUIDE.md
 
 ---
 
@@ -148,3 +143,4 @@ For the new structure:
 **Maintained:** No  
 **Use:** Reference only  
 **Recommended:** Use NEW_STRUCTURE instead
+

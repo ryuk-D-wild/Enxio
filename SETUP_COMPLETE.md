@@ -86,7 +86,7 @@ cd hybrid_llm
 ## 📁 Project Structure
 
 ```
-C:\Users\Mi\Desktop\enxio\
+Driver
 │
 ├── qwen_setup/                    ✅ READY
 │   ├── venv/                      ✅ Created
