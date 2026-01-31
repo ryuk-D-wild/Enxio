@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "alternatives": {
+      "low_ram": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "medium_ram": "Qwen/Qwen2.5-Coder-3B-Instruct",
+      "high_ram": "Qwen/Qwen2.5-Coder-7B-Instruct"
+    }
+  },
+  "rag": {
+    "enabled": true,
+    "codebase_path": ".",
+    "max_results": 3,
+    "file_extensions": [".py", ".js", ".ts", ".java", ".cpp", ".go", ".rs"]
+  },
+  "generation": {
+    "max_tokens": 2048,
+    "temperature": 0.3,
+    "top_p": 0.95,
+    "top_k": 50
+  },
+  "network": {
+    "offline_mode": true,
+    "verify_no_leaks": true
+  }
+}

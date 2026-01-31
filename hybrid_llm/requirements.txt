@@ -1,0 +1,15 @@
+# Core dependencies
+torch
+transformers>=4.37.0
+accelerate
+bitsandbytes>=0.43.0
+sentencepiece
+protobuf
+
+# For web search (optional)
+requests
+beautifulsoup4
+
+# For better RAG (optional upgrade)
+sentence-transformers
+faiss-cpu

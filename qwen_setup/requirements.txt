@@ -1,0 +1,7 @@
+# Qwen Local Setup - Optimized for Low-End Hardware
+torch
+transformers>=4.37.0
+accelerate
+bitsandbytes>=0.43.0
+sentencepiece
+protobuf
